@@ -1,5 +1,8 @@
 # n8n Artifacts Node
 
+[![CI](https://github.com/nonagenticai/n8n-nodes-artifacts/actions/workflows/ci.yml/badge.svg)](https://github.com/nonagenticai/n8n-nodes-artifacts/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/nonagenticai/n8n-nodes-artifacts)](https://github.com/nonagenticai/n8n-nodes-artifacts/releases)
+
 An n8n community node for the [Artifact Service](https://github.com/nonagenticai/artifact_service) —
 multi-tenant storage and retrieval of project artifacts, with versioning, manifests, tagging and
 sensitivity levels.
@@ -750,4 +753,4 @@ Content-Type: application/json
 
 ## License
 
-Refer to the main n8n project license for this custom node.
+Apache-2.0 — see [`LICENSE`](LICENSE). The n8n runtime itself is licensed separately by n8n GmbH; this node's own code is Apache-2.0.
