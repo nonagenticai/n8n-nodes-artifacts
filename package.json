@@ -1,6 +1,6 @@
 {
-  "name": "@nonagentic/n8n-nodes-artifacts",
-  "version": "0.2.0",
+  "name": "@nonagenticai/n8n-nodes-artifacts",
+  "version": "0.2.1",
   "description": "n8n community node for the Artifact Service API \u2014 multi-tenant artifact storage, manifests and retrieval",
   "keywords": [
     "n8n-community-node-package",

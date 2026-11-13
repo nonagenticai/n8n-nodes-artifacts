@@ -48,7 +48,7 @@ export function resolveBaseUrl(
   const fromEnv = String(env.ARTIFACTS_API_URL ?? "").trim();
   if (fromCredential && fromEnv && fromCredential !== fromEnv) {
     console.warn(
-      `[@nonagentic/n8n-nodes-artifacts] Base URL mismatch: credential="${fromCredential}" ` +
+      `[@nonagenticai/n8n-nodes-artifacts] Base URL mismatch: credential="${fromCredential}" ` +
         `ARTIFACTS_API_URL="${fromEnv}". The credential wins — clear it to let the ` +
         `deployment env govern.`,
     );
@@ -56,7 +56,7 @@ export function resolveBaseUrl(
   if (fromCredential) return fromCredential;
   if (fromEnv) return fromEnv;
   throw new Error(
-    `[@nonagentic/n8n-nodes-artifacts] No Base URL configured. Set "Base URL" in the credential ` +
+    `[@nonagenticai/n8n-nodes-artifacts] No Base URL configured. Set "Base URL" in the credential ` +
       `(this works on any n8n instance), or ARTIFACTS_API_URL in the environment.`,
   );
 }
