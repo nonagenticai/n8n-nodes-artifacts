@@ -1,6 +1,6 @@
 {
   "name": "@nonagenticai/n8n-nodes-artifacts",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "n8n community node for the Artifact Service API \u2014 multi-tenant artifact storage, manifests and retrieval",
   "keywords": [
     "n8n-community-node-package",
@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/nonagenticai/n8n-nodes-artifacts",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
