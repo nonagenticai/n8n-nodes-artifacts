@@ -759,4 +759,4 @@ only licence that applies, and no licence server is involved.
 
 ## License
 
-Apache-2.0 — see [`LICENSE`](LICENSE). The n8n runtime itself is licensed separately by n8n GmbH; this node's own code is Apache-2.0.
+Apache-2.0 — see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE). The n8n runtime itself is licensed separately by n8n GmbH; this node's own code is Apache-2.0.
