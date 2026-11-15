@@ -4,9 +4,10 @@
 [![Release](https://img.shields.io/github/v/release/nonagenticai/n8n-nodes-artifacts)](https://github.com/nonagenticai/n8n-nodes-artifacts/releases)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-An n8n community node for the [Artifact Service](https://github.com/nonagenticai/artifact_service) —
-multi-tenant storage and retrieval of project artifacts, with versioning, manifests, tagging,
-review status and sensitivity levels.
+An n8n community node for the [Artifact Service](https://github.com/nonagenticai/artifact_service)
+that gives n8n workflow authors one node for the artifact lifecycle — multi-tenant storage and
+retrieval of project artifacts, with versioning, manifests, tagging, review status and sensitivity
+levels.
 
 > **Backend required.** This node talks to an Artifact Service instance you run yourself; there is no
 > hosted service. The [service repository](https://github.com/nonagenticai/artifact_service) has a
@@ -245,7 +246,7 @@ Report vulnerabilities privately through the repository's Security tab — see
 ## Contributing
 
 Issues and pull requests are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the development
-commands and the one-concern-per-pull-request rule; commits carry DCO sign-off.
+commands, the one-concern-per-pull-request rule and the DCO sign-off it asks of contributors.
 
 ## Licensing
 
