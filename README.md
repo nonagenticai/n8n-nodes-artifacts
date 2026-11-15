@@ -170,11 +170,11 @@ workflow:
 
 ```json
 {
-  "error": "Request failed with status code 404",
+  "error": "Request failed with status code 400",
   "resource": "artifacts",
   "operation": "getArtifact",
-  "statusCode": 404,
-  "errorCode": "artifact_not_found"
+  "statusCode": 400,
+  "errorCode": "INVALID_TENANT_ID"
 }
 ```
 
