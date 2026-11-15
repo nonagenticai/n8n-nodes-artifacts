@@ -203,7 +203,8 @@ npm test
 ```
 
 `npm run build` compiles `index.ts`, `nodes/`, `credentials/`, `src/` and `helpers/` with
-`tsc`, then copies the SVG icons into `dist/`. The resulting layout is:
+`tsc`, then copies the SVG icons into `dist/`. `tsc` emits a `.d.ts` declaration beside every
+compiled `.js` file. The key paths in the build output are:
 
 ```
 dist/
